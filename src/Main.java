@@ -23,6 +23,7 @@ class Refnum{
 
 public class Main {
     public static void main(String[] args) {
+        
 
     // Call in the referenced number from the other class Refnum
     Refnum object = new Refnum(10);
