@@ -1,17 +1,66 @@
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
+
+// Pass the N variable as number 10
+class Refnum{
+
+    int n;
+
+    // Function to assign the value
+    // to the class variables
+    Refnum(int x) {
+
+        n = x;
+    }
+
+    void ChangeValue(Refnum obj){
+
+        obj.n += 10;
+
+    }
+        }
+
+
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
+    // Call in the referenced number from the other class Refnum
+    Refnum object = new Refnum(10);
 
-            // Press Shift+F9 to start debugging your code. We have set one breakpoint
-            // for you, but you can always add more by pressing Ctrl+F8.
-            System.out.println("i = " + i);
-        }
+    // Make the object into a variable easier to use
+    int n = 0;
+    n = object.n;
+
+    // Test Code goes here
+   // System.out.print("The nth term of the referenced class is " + object.n); // Test output
+
+    // Create Fibonacci sequence
+
+   // Create the variables
+    int a=0, b=1, first=0, second=1;
+
+    // Print out Results
+
+        System.out.print("The Fibonacci Sequence is as followed for " + n + " terms:  ");
+
+    // Loop for Fibonacci
+    // Used for all elements after the 1st 2 entries
+    // N terms long
+
+
+
+    for (int i = 0; i <= n; ++i) {
+
+            // print and then calculate next
+            System.out.print(first + ", ");
+
+            int next = first + second;
+            first = second;
+            second = next;
+
+         }
+
     }
+
 }
+
