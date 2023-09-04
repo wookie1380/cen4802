@@ -23,16 +23,7 @@ class Refnum{
 
 public class Main {
 
-    /***
-     *
-     * The main class will show the Fibonacci Sequence
-     * Will get length of sequence from Refnum class
-     *
-     * @author Cameron Krane
-     * @version 1.0
-     * @return there are no explicit returns.
-     *
-     */
+
     public static void main() {
         main(null);
     }
@@ -40,10 +31,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-/***
- * @param n int Input to main function on how many numbers the Fibonacci Sequence goes to
- *
- */
+
 
     // Call in the referenced number from the other class Refnum
     Refnum object = new Refnum(10);
