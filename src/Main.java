@@ -12,12 +12,7 @@ class Refnum{
 
         n = x;
     }
-//
-//    void ChangeValue(Refnum obj){
-//
-//        obj.n += 10;
-//
-//    }
+
         }
 
 
