@@ -12,18 +12,38 @@ class Refnum{
 
         n = x;
     }
-
-    void ChangeValue(Refnum obj){
-
-        obj.n += 10;
-
-    }
+//
+//    void ChangeValue(Refnum obj){
+//
+//        obj.n += 10;
+//
+//    }
         }
 
 
 public class Main {
+
+    /***
+     *
+     * The main class will show the Fibonacci Sequence
+     * Will get length of sequence from Refnum class
+     *
+     * @author Cameron Krane
+     * @version 1.0
+     * @return there are no explicit returns.
+     *
+     */
+    public static void main() {
+        main(null);
+    }
+
+
     public static void main(String[] args) {
-        
+
+/***
+ * @param n int Input to main function on how many numbers the Fibonacci Sequence goes to
+ *
+ */
 
     // Call in the referenced number from the other class Refnum
     Refnum object = new Refnum(10);
@@ -31,6 +51,8 @@ public class Main {
     // Make the object into a variable easier to use
     int n = 0;
     n = object.n;
+
+
 
     // Test Code goes here
    // System.out.print("The nth term of the referenced class is " + object.n); // Test output
@@ -51,6 +73,7 @@ public class Main {
 
 
     for (int i = 0; i <= n; ++i) {
+
 
             // print and then calculate next
             System.out.print(first + ", ");
